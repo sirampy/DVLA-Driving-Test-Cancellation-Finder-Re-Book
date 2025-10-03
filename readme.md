@@ -16,5 +16,5 @@ This repo provides a script that automatically navigates the DVSA website for yo
 * Many of the helpers provided by this project only work if on the correct webpage. They should be somewhat in the order you would likely want to use them, but you will likely have to do some experimentation to figure out what they are all for. For the most part, "Find Booking" (and maybe "Show More Results") is all you should need.
 
 ## TODO: 
-[ ] periodic retries (with re-auth alert)
-[ ] gif / video demo
+- [ ] periodic retries (with re-auth alert)
+- [ ] gif / video demo
