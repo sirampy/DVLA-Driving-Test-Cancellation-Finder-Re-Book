@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Menu Test
+// @name         DVSA Re-Booking Helper
 // @description  Make finding DVSA driving tests easier
 // @version      1
 // @grant        GM_registerMenuCommand
@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 ( function () {
-    // Set These:
+    // SET THESE //
     var lisence_number = "YOUR LISENCE NUMBER";
     var test_reference_number = "YOUR TEST REFERENCE NUMBER";
     var prefered_location = "YOUR POSTCODE";
@@ -18,6 +18,8 @@
     var show_more_count = 3;    // How many times to auto-press the "show more results" button
     var alert_on_find = true;   // Enable alert sound / auto-scroll / re-colour when test found
 
+    // CODE STARTS HERE //
+    
     // Basic helpers
     function set_input_by_id(id, value) {
         const input = document.getElementById(id);
